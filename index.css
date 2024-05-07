@@ -1,0 +1,60 @@
+form{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+fieldset{
+  border: 2px  solid ;
+  margin: 10px solid;
+}
+
+legend{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+}
+div{
+    display:grid ;
+
+   
+}
+input{
+   width: 50%;
+  display: flex;
+  justify-self: center;
+}
+label{
+    display: flex;
+    justify-self: center;
+    font: size 16px;;
+    font-style: inherit;
+    font-weight: 200;
+}
+.one{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.Sign_agree{
+    display: flex;
+    flex-direction: row;
+   flex-wrap: nowrap;
+}
+#javascript {
+    width: 5%;
+  
+}
+#css{
+    width: 5%;
+}
+
+#html{
+    width: 5%;
+}
+button{
+    width: 50%;
+    display: flex;
+    justify-self: center;
+}
